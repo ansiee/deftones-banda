@@ -2,28 +2,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* COMEÇO CABEÇALHO */
-body{
+body {
     background-image: url(./IMG/Rectangle\ 1.png);
-    background-size: 1380px;
+    background-size: contain;
     background-repeat: no-repeat;
-    width: 1280px;
-    height: 4725px;
+    /* width: 1280px;
+    height: 4725px; */
     background-color: #1E1E1E;
 }
 
-header{
+/* header{
     width: 1280px;
     height: 460px;
-}
+} */
 
-nav{
+nav {
     background: rgba(30, 30, 30, 0.47);
     background-attachment: fixed;
     background-position: top;
@@ -31,19 +31,19 @@ nav{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(15px);
 
-    width: 1380px;
+    width: 100%;
     height: 65px;
     position: fixed;
     top: 0;
 }
 
- @font-face {
-        font-family: 'Deftones';
-        src: url('ribbon.ttf') format('truetype');
-    }
+@font-face {
+    font-family: 'Deftones';
+    src: url('ribbon.ttf') format('truetype');
+}
 
-header h2{
-   
+header h2 {
+
     font-family: 'Deftones', sans-serif;
     font-weight: 400;
     font-size: 250px;
@@ -54,28 +54,23 @@ header h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 65px;
+    margin-top: 170px;
 }
 
-header h3{
-    font-family: 'Poppins', sans-serif;
-    
-}
-
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
 }
 
-nav h1{
+nav h1 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     color: #FFFFFF;
 }
 
-nav button{
+nav button {
     background: #1E1E1E;
     border: 1px solid #D3D3D3;
     border-radius: 20px;
@@ -91,27 +86,27 @@ nav button{
     cursor: pointer;
 }
 
-header h3{
-    font-family: 'Poppins',sans-serif;
+header h3 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     color: #FFFFFF;
 
     margin-left: 25px;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 /* FINAL CABEÇALHO */
 
 
 /* COMEÇO DO SOBRE */
-main{
+main {
     margin-top: 76px;
 }
 
-main  h1{
-    font-family: 'Poppins',sans-serif;
+main h1 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 48px;
@@ -120,21 +115,32 @@ main  h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 200px;
 }
 
-main  h2, main h3, main h4, main h5{
-    font-family: 'Abel',sans-serif;
+main h2,
+main h3,
+main h4,
+main h5 {
+    font-family: 'Abel', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     text-align: justify;
 
-    color: #FFFFFF;
     padding: 20px;
+    word-break: keep-all;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
     margin-left: 70px;
+    margin-right: 70px;
 }
 
-main h2{
+main h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,7 +152,16 @@ main h2{
 
 /* COMEÇO DA ÁREA DE INTEGRANTES */
 
-.integrantes h1{
+.integrantes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 7rem;
+}
+
+.integrantes h1 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -161,25 +176,25 @@ main h2{
     margin-top: 100px;
 }
 
-.cards-integrantes-1{
+.cards-integrantes-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 97px;
-    margin-left: 140px;
+    gap: 10rem;
 }
 
-.cards-integrantes-2{
+.cards-integrantes-2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
-    margin-left: 140px;
+    gap: 10rem;
+
 
 }
 
-.card-chino h2{
-    font-family: 'Poppins',sans-serif;
+.card-chino h2 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
@@ -190,8 +205,8 @@ main h2{
     margin-left: 20px;
 }
 
-.card-stephen h2{
-    font-family: 'Poppins',sans-serif;
+.card-stephen h2 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
@@ -200,8 +215,8 @@ main h2{
     color: #FFFFFF;
 }
 
-.card-abe h2{
-    font-family: 'Poppins',sans-serif;
+.card-abe h2 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
@@ -210,8 +225,8 @@ main h2{
     color: #FFFFFF;
 }
 
-.card-frank h2{
-    font-family: 'Poppins',sans-serif;
+.card-frank h2 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
@@ -221,8 +236,8 @@ main h2{
     color: #FFFFFF;
 }
 
-.card-sergio h2{
-    font-family: 'Poppins',sans-serif;
+.card-sergio h2 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
@@ -232,8 +247,8 @@ main h2{
     color: #FFFFFF;
 }
 
-.card-chi h2{
-    font-family: 'Poppins',sans-serif;
+.card-chi h2 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
@@ -242,8 +257,8 @@ main h2{
     color: #FFFFFF;
 }
 
-.card-chino h3{
-    font-family: 'Poppins',sans-serif;
+.card-chino h3 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -254,8 +269,8 @@ main h2{
     margin-left: 20px;
 }
 
-.card-stephen h3{
-    font-family: 'Poppins',sans-serif;
+.card-stephen h3 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -265,8 +280,8 @@ main h2{
     color: #FFFFFF;
 }
 
-.card-abe h3{
-    font-family: 'Poppins',sans-serif;
+.card-abe h3 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -276,8 +291,8 @@ main h2{
     color: #FFFFFF;
 }
 
-.card-frank h3{
-    font-family: 'Poppins',sans-serif;
+.card-frank h3 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -287,8 +302,8 @@ main h2{
     color: #FFFFFF;
 }
 
-.card-sergio h3{
-    font-family: 'Poppins',sans-serif;
+.card-sergio h3 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -298,8 +313,8 @@ main h2{
     color: #FFFFFF;
 }
 
-.card-chi h3{
-    font-family: 'Poppins',sans-serif;
+.card-chi h3 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -308,13 +323,14 @@ main h2{
 
     color: #FFFFFF;
 }
+
 /* FINAL DA ÁREA DE INTEGRANTES */
 
 
 /* COMEÇO DE MÚSICAS FAVORITAS */
 
-.musicas h1{
-    font-family: 'Poppins',sans-serif;
+.musicas h1 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 48px;
@@ -328,7 +344,7 @@ main h2{
     margin-top: 150px;
 }
 
-.parte-de-baixo{
+.parte-de-baixo {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -338,7 +354,7 @@ main h2{
     margin-right: 10px;
 }
 
-.card-musicas{
+.card-musicas {
     margin-top: 126px;
     display: flex;
     overflow-x: scroll;
@@ -347,26 +363,29 @@ main h2{
     padding-bottom: 0.5rem;
     width: 100%;
     margin-left: 40px;
-
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.card-musicas::-webkit-scrollbar{
+.card-musicas::-webkit-scrollbar {
     width: 50px;
 }
 
-.card-musicas::-webkit-scrollbar-track{
+.card-musicas::-webkit-scrollbar-track {
     background: transparent;
     padding: 10px;
 }
 
-.card-musicas::-webkit-scrollbar-thumb{
+.card-musicas::-webkit-scrollbar-thumb {
     background-color: #585757;
     border-radius: 20px;
     width: 30px;
 }
 
-.card-musicas h1{
+.card-musicas h1 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -377,16 +396,16 @@ main h2{
     margin-top: 16px;
 }
 
-.card-be-quiet h1{
-    font-family: 'Poppins',sans-serif;
+.card-be-quiet h1 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 48px;
 }
 
-.card-musicas h2{
-    font-family: 'Poppins',sans-serif;
+.card-musicas h2 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 275;
     font-size: 20px;
@@ -395,7 +414,7 @@ main h2{
     color: #FFFFFF;
 }
 
-.card-musicas h3{
+.card-musicas h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 275;
@@ -406,8 +425,8 @@ main h2{
 
 }
 
-.card-diamond-eyes{
-    background: #1E1E1E;
+.card-diamond-eyes {
+    background: #474747;
     border: 1px solid #D3D3D3;
     border-radius: 10px;
 
@@ -416,13 +435,16 @@ main h2{
     padding: 50px;
 }
 
-.card-diamond-eyes h2, .card-risk h2, .card-be-quiet h2, .card-beauty-school h2{
+.card-diamond-eyes h2,
+.card-risk h2,
+.card-be-quiet h2,
+.card-beauty-school h2 {
     margin-left: 75px;
-    
+
 }
 
-.card-risk{
-    background: #1E1E1E;
+.card-risk {
+    background: #474747;
     border: 1px solid #D3D3D3;
     border-radius: 10px;
 
@@ -431,8 +453,8 @@ main h2{
     padding: 50px;
 }
 
-.card-be-quiet{
-    background: #1E1E1E;
+.card-be-quiet {
+    background: #474747;
     border: 1px solid #D3D3D3;
     border-radius: 10px;
 
@@ -441,8 +463,8 @@ main h2{
     padding: 50px;
 }
 
-.card-beauty-school{
-    background: #1E1E1E;
+.card-beauty-school {
+    background: #474747;
     border: 1px solid #D3D3D3;
     border-radius: 10px;
 
@@ -451,29 +473,209 @@ main h2{
     padding: 50px;
 }
 
-.card-beauty-school h1{
+.card-beauty-school h1 {
     margin-left: 6px;
 }
 
-.card-be-quiet h1{
+.card-be-quiet h1 {
     margin-right: 0px;
 }
 
-.card-beauty-school h1{
+.card-beauty-school h1 {
     margin-left: 9px;
 }
 
-.card-risk h1{
+.card-risk h1 {
     margin-right: 5px;
 }
 
-.card-diamond-eyes h1{
+.card-diamond-eyes h1 {
     margin-left: 10px;
 }
 
-#barraDeProgresso {
-    width: 100%;
-    height: 5px;
-    background-color: #ccc;
-    cursor: pointer;
-  }
+
+/* COMEÇO DA ÁREA VÍDEOS */
+
+.thumbs {
+    margin-top: 126px;
+    display: flex;
+    overflow-x: auto;
+    gap: 40px;
+    padding-bottom: 0.5rem;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.thumbs::-webkit-scrollbar {
+    width: 50px;
+}
+
+.thumbs::-webkit-scrollbar-track {
+    background: transparent;
+    padding: 10px;
+}
+
+.thumbs::-webkit-scrollbar-thumb {
+    background-color: #585757;
+    border-radius: 20px;
+    width: 30px;
+}
+
+
+.videos h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 72px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.videos h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 48px;
+    color: white;
+}
+
+.sextape-capa,
+.ystb-capa,
+.myownsummer-capa,
+.change-capa {
+    width: 847px;
+    height: 476px;
+}
+
+.videos a {
+    text-decoration: none;
+}
+
+.videos button {
+    width: 320px;
+    height: 63px;
+
+    background: #1E1E1E;
+    border: 1px solid #D3D3D3;
+    border-radius: 30px;
+
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 10px 20px #000000;
+
+    padding: 12px 17px;
+    gap: 20px;
+
+    display: flex;
+
+    margin-bottom: 17px;
+}
+
+.youtube-icon {
+    margin-top: 5px;
+}
+
+.change-video {
+    background-image: url(./IMG/change.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 847px;
+    height: 476px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.myownsummer-video {
+    background-image: url(./IMG/myownsummer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 847px;
+    height: 476px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ystb-video {
+    background-image: url(./IMG/youveseenthebutcher.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 847px;
+    height: 476px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sextape-video {
+    width: 847px;
+    height: 476px;
+    background-image: url(./IMG/sextape.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer {
+    height: 280px;
+
+    background-color: #585757;
+
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+}
+
+footer h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #474747;
+}
+
+audio::-webkit-media-controls-enclosure {
+    background-color: transparent;
+}
+
+audio::-webkit-media-controls-current-time-display,audio::-webkit-media-controls-time-remaining-display {
+    text-shadow: none;
+}

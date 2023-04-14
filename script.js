@@ -1,9 +1,9 @@
-var audio = document.getElementById("myAudio");
+// var audio = document.getElementById("myAudio");
 
-function play() {
-  audio.play();
-}
+// function play() {
+//   audio.play();
+// }
 
-function pause() {
-  audio.pause();
-}
+// function pause() {
+//   audio.pause();
+// }
