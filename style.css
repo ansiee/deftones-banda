@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMEÇO CABEÇALHO */
+body{
+    background-image: url(./IMG/Rectangle\ 1.png);
+    background-size: 1380px;
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 4725px;
+    background-color: #1E1E1E;
+}
+
+header{
+    width: 1280px;
+    height: 460px;
+}
+
+nav{
+    background: rgba(30, 30, 30, 0.47);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+
+    width: 1380px;
+    height: 65px;
+    position: fixed;
+    top: 0;
+}
+
+ @font-face {
+        font-family: 'Deftones';
+        src: url('ribbon.ttf') format('truetype');
+    }
+
+header h2{
+   
+    font-family: 'Deftones', sans-serif;
+    font-weight: 400;
+    font-size: 250px;
+    color: #FFFFFF;
+
+    text-shadow: 0px 10px 20px #000000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+
+header h3{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+nav h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+nav button{
+    background: #1E1E1E;
+    border: 1px solid #D3D3D3;
+    border-radius: 20px;
+    width: 277px;
+    height: 40px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+header h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+/* FINAL CABEÇALHO */
+
+
+/* COMEÇO DO SOBRE */
+main{
+    margin-top: 76px;
+}
+
+main  h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main  h2, main h3, main h4, main h5{
+    font-family: 'Abel',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+
+    color: #FFFFFF;
+    padding: 20px;
+    margin-left: 70px;
+}
+
+main h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 76px;
+}
+
+/* FIM DO SOBRE */
+
+
+/* COMEÇO DA ÁREA DE INTEGRANTES */
+
+.integrantes h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+}
+
+.cards-integrantes-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 97px;
+    margin-left: 140px;
+}
+
+.cards-integrantes-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 140px;
+
+}
+
+.card-chino h2{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 20px;
+
+    color: #FFFFFF;
+
+    margin-left: 20px;
+}
+
+.card-stephen h2{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 20px;
+
+    color: #FFFFFF;
+}
+
+.card-abe h2{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 20px;
+
+    color: #FFFFFF;
+}
+
+.card-frank h2{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    color: #FFFFFF;
+}
+
+.card-sergio h2{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 45px;
+
+    color: #FFFFFF;
+}
+
+.card-chi h2{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 45px;
+    color: #FFFFFF;
+}
+
+.card-chino h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0px;
+
+    color: #FFFFFF;
+
+    margin-left: 20px;
+}
+
+.card-stephen h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 70px;
+
+    color: #FFFFFF;
+}
+
+.card-abe h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+    color: #FFFFFF;
+}
+
+.card-frank h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 35px;
+
+    color: #FFFFFF;
+}
+
+.card-sergio h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 90px;
+
+    color: #FFFFFF;
+}
+
+.card-chi h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+    color: #FFFFFF;
+}
+/* FINAL DA ÁREA DE INTEGRANTES */
+
+
+/* COMEÇO DE MÚSICAS FAVORITAS */
+
+.musicas h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 72px;
+
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 150px;
+}
+
+.parte-de-baixo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.card-musicas{
+    margin-top: 126px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 40px;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    margin-left: 40px;
+
+
+}
+
+.card-musicas::-webkit-scrollbar{
+    width: 50px;
+}
+
+.card-musicas::-webkit-scrollbar-track{
+    background: transparent;
+    padding: 10px;
+}
+
+.card-musicas::-webkit-scrollbar-thumb{
+    background-color: #585757;
+    border-radius: 20px;
+    width: 30px;
+}
+
+.card-musicas h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.card-be-quiet h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 48px;
+}
+
+.card-musicas h2{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 275;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.card-musicas h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+}
+
+.card-diamond-eyes{
+    background: #1E1E1E;
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+
+    width: 356.83px;
+    height: 464.96px;
+    padding: 50px;
+}
+
+.card-diamond-eyes h2, .card-risk h2, .card-be-quiet h2, .card-beauty-school h2{
+    margin-left: 75px;
+    
+}
+
+.card-risk{
+    background: #1E1E1E;
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+
+    width: 356.83px;
+    height: 464.96px;
+    padding: 50px;
+}
+
+.card-be-quiet{
+    background: #1E1E1E;
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+
+    width: 356.83px;
+    height: 464.96px;
+    padding: 50px;
+}
+
+.card-beauty-school{
+    background: #1E1E1E;
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+
+    width: 356.83px;
+    height: 464.96px;
+    padding: 50px;
+}
+
+.card-beauty-school h1{
+    margin-left: 6px;
+}
+
+.card-be-quiet h1{
+    margin-right: 0px;
+}
+
+.card-beauty-school h1{
+    margin-left: 9px;
+}
+
+.card-risk h1{
+    margin-right: 5px;
+}
+
+.card-diamond-eyes h1{
+    margin-left: 10px;
+}
+
+#barraDeProgresso {
+    width: 100%;
+    height: 5px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
